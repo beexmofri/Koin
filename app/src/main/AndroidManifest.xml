@@ -3,14 +3,14 @@
     package="com.example.roomapp">
 
     <application
+        android:name=".di.App"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="Noted"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".di.App"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.roomapp.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
